@@ -4,67 +4,57 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Verdana, sans-serif;
+#main {
+    font-family: "Segoe UI",Arial, sans-serif;
     font-size: 15px;
     line-height: 1.5;
 }
 
 .title {
-    height: 74.28px;
-    line-height: 74.28px;
-    padding: 0.15px 16px;
+    --height: 74.28px;
+    height: var(--height);
+    line-height: var(--height);
+    padding: 0 16px;
     background-color: #009688;
+    color: #ffffff;
 }
 
 h1 {
-    height: 54px;
-    font-size: 36px;
-    color: #ffffff;
-    font-family: "Segoe Ui", Arial, sans-serif;
     font-weight: 400;
+    font-size: 36px;
 }
 
 .container_card {
+    margin: 0 141.5px;
+}
+
+.container_card .card {
     display: flex;
-    margin-top: 16px;
-    padding: 0 8px;
+    margin: 16px;
 }
 
-.container_card .card-padding {
+.container_card .card img {
     flex: 1;
-    padding: 0 8px;
 }
 
-.container_card .card-padding .card {
-    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%),
-                0 2px 10px 0 rgb(0 0 0 / 12%);
+.container_card .card .card-img {
+    width: 33.33333%;
 }
 
-.container_card .card-margin {
-    margin-top: 16px;
+.container_card .card .sites-title {
+    flex: 2;
+    padding: 0 16px;
 }
 
-.container_card .card-padding .card img {
-    width: 100%;
-}
-
-.sites-title {
-    margin-top: -5px;
-    padding: 0.15px 16px;
-    font-size: 20px;
-}
-
-h4 {
+.container_card .card .sites-title h2 {
     margin: 10px 0;
-    height: 30px;
-    line-height: 30px;
-    color: #000000;
-    font-family: "Segoe Ui", Arial, sans-serif;
+    font-size: 30px;
+    font-family: "Segoe UI", Arial, sans-serif;
     font-weight: 400;
 }
 
-.card-padding {
-    padding: 0 8px;
+.container_card .card .sites-title p {
+    margin: 15px 0;
+    font-size: 15px;
+    font-family: Verdana;
 }
-
