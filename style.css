@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.title {
+    height: 74.28px;
+    line-height: 74.28px;
+    padding: 0.15px 16px;
+    background-color: #009688;
+}
+
+h1 {
+    height: 54px;
+    font-size: 36px;
+    color: #ffffff;
+    font-family: "Segoe Ui", Arial, sans-serif;
+    font-weight: 400;
+}
+
+.container_card {
+    display: flex;
+    margin-top: 16px;
+    padding: 0 8px;
+}
+
+.container_card .card-padding {
+    flex: 1;
+    padding: 0 8px;
+}
+
+.container_card .card-padding .card {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%),
+                0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.container_card .card-margin {
+    margin-top: 16px;
+}
+
+.container_card .card-padding .card img {
+    width: 100%;
+}
+
+.sites-title {
+    margin-top: -5px;
+    padding: 0.15px 16px;
+    font-size: 20px;
+}
+
+h4 {
+    margin: 10px 0;
+    height: 30px;
+    line-height: 30px;
+    color: #000000;
+    font-family: "Segoe Ui", Arial, sans-serif;
+    font-weight: 400;
+}
+
+.card-padding {
+    padding: 0 8px;
+}
+
